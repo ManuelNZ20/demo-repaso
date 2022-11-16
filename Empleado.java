@@ -9,5 +9,9 @@ public class Empleado extends Persona{
 		this.sueldo = sueldo;
 	}
 	
+	public(){
+		this(null,null,0.0f);
+	}
+	
 	
 }
