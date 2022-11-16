@@ -10,4 +10,12 @@ public class Empleado extends Persona{
 	}
 	
 	
+	public float getSueldo(){
+	    return sueldo;
+	}
+	
+	public void setSueldo(float sueldo)
+	{
+	    this.sueldo = sueldo;
+	}
 }
