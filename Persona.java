@@ -11,7 +11,15 @@ public class Persona{
  public Persona(){
   this(null,null);
  }
-
-}
+ public String getNombre(){
+  return nombre;
+ }
+ 
+ public String getApellido()
+ {
+  return apellido;
+ }
+ 
+ }
 
 
